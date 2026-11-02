@@ -13,9 +13,13 @@ Streamlit dashboard.
 
 ## Features
 
-- Interactive inputs for the ten standardized features (age, sex, BMI,
+- Interactive inputs for the ten model features, with sex selected as Male
+  or Female and mapped to the dataset's standardized encoding
+- A prefilled sample report dashboard with a chart of the entered standardized
+  feature values
+- Interactive inputs for the remaining standardized features (age, BMI,
   blood pressure, and six blood serum measurements)
-- Instant progression-score prediction from the saved model
+- Progression-score prediction and patient report refresh after form submission
 - Medical-use disclaimer included in the app
 
 ## Tech Stack
